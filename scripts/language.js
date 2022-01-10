@@ -29,17 +29,13 @@ function changeLanguage(langSelected) {
     var lang = langSelected;
 
     var langTxt = document.getElementsByClassName('lang');
-    var enTxt = document.getElementsByClassName('en');
     var frTxt = document.getElementsByClassName('fr');
 
     for (var i = 0; i < langTxt.length; i++) {
         langTxt[i].style.display = 'none';
     }
 
-    if (lang.includes('en')) {
-        lang = 'en';
-    }
-    else if (lang.includes('fr')) {
+    if (lang.includes('fr')) {
         lang = 'fr';
     }
 
@@ -48,15 +44,12 @@ function changeLanguage(langSelected) {
             for (var i = 0; i < frTxt.length; i++) {
                 frTxt[i].style.display = 'block';
             }
-
             document.getElementById('lang-switch').value = 'fr';
-            break;
-        case 'en':
         default:
-            for (var i = 0; i < enTxt.length; i++) {
-                enTxt[i].style.display = 'block';
+            for (var i = 0; i < frTxt.length; i++) {
+                frTxt[i].style.display = 'block';
             }
-            document.getElementById('lang-switch').value = 'en';
+            document.getElementById('lang-switch').value = 'fr';
             break;
     }
 

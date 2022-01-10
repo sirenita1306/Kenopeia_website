@@ -1,10 +1,59 @@
-* {
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     overflow-x: hidden;
 }
 
-html{
-	 background-color: #CBB9F0;
+html {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: black;
+    background-color: rgba(164, 134, 183, 0.3);
+    text-decoration: none;
+    width: 100%;
+}
+
+.rowFlex{
+    display: flex;
+    flex-direction: row;
+}
+
+.columnFlex {
+    display: flex;
+    flex-direction: column;
+}
+
+hr{
+    border: 0;
+    border-top: 2px solid grey;
+    margin: 15px 0;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.clearHR {
+    border-top: 2px solid lightgrey;
+}
+
+@media only screen and (min-width: 100px) {
+    .hideSmall {
+        display: none;
+    }
+
+    .wrapSmall{
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .hideSmall{
+        display: block;
+    }
+
+    .wrapSmall{
+        flex-wrap: nowrap;
+    }
 }

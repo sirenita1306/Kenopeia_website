@@ -1,0 +1,72 @@
+header{
+    width: 100%;
+}
+
+a, a:hover, a:visited {
+    color: #6F6B73;
+}
+
+.navBar{
+    display: block;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navBarContent {
+    color: #6F6B73;
+    background-color: white;
+    text-align: left;
+    font-size: 18px;
+    width: 100%;
+    overflow: hidden;
+    align-content: center;
+    justify-content: left;
+}
+
+.navMenuLink{
+    margin: 5px 0px auto 10px;
+}
+
+    .navMenuLink svg {
+        fill: #6F6B73;
+        width: 35px;
+        transition: all 0.5s ease;
+        transform: scale(1);
+    }
+
+        .navMenuLink svg:hover {
+            fill: #423054;
+            transform: scale(1.2) perspective(1px);
+            backface-visibility: hidden;
+        }
+
+@media only screen and (min-width: 100px) {
+    .navBarContent {
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .navBarContent{
+        justify-content: left;
+    }
+
+    .logo {
+        font-weight: 600;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: auto;
+        margin-left: 15px;
+        margin-right: 10px;
+        transition: all 0.5s ease;
+        transform: scale(1);
+    }
+
+        .logo:hover {
+            color: #423054;
+            transform: scale(1.05) perspective(1px);
+            backface-visibility: hidden;
+        }
+}

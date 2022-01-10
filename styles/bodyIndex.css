@@ -1,0 +1,275 @@
+main{
+    width: 100%;
+    max-width: 1470px;
+    margin: 80px auto;
+    min-height: 100vh;
+}
+
+hr{
+    margin: 25px 0;
+}
+
+.mainGrid{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.mainColumn{
+    margin: 0px 5px;
+    padding: 5px;
+    width: 90%;
+}
+
+.cardSections {
+    background-color: rgba(251, 250, 252, 0.7);
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+    border-left: 1px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    margin-bottom: 10px;
+}
+
+/* Profile section */
+.profileContainer{
+    padding: 0.01em 16px;
+}
+
+.profileContent h4{
+    text-align: center;
+    font-weight: 400;
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.infosProfile {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.infosProfile svg{
+    width: 20px;
+    margin-right: 2px;
+    fill: rgba(0, 0, 0, 0.8)
+}
+
+.profilePic {
+    text-align: center;
+}
+
+.profilePic img{
+    height: 106px;
+    width: 106px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+/* Middle part */
+.middleSection {
+    padding: 0.01em 16px;
+    margin: 16px;
+}
+
+.profilePicMiddle{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 16px;
+}
+
+.timeTxt{
+    float: right;
+    opacity: 0.35;
+}
+
+.middleSection h4 {
+    margin-top: 18px;
+    font-size: 18px;
+}
+
+.middleSection p{
+    margin-bottom: 20px;
+}
+
+.middleSection p a, .middleSection p a:hover, .middleSection p a:visited{
+    color: black;
+}
+
+.middleImgContainer{
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.middleImgHalf {
+    flex: unset;
+    width: unset;
+    overflow: hidden;
+    margin: auto 5px;
+    display: flex;
+}
+
+    .middleImgHalf img {
+        border-radius: 3%;
+        margin: auto;
+    }
+
+
+@media only screen and (min-width: 375px) {
+    .mainColumn{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .mainColumn{
+        width: 70%;
+    }
+
+    .middleColumn{
+        width: unset;
+    }
+}
+
+@media only screen and (min-width: 500px)
+{
+    .mainColumn{
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 600px)
+{
+    .mainColumn {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px)
+{
+    .mainColumn {
+        width: 30%;
+    }
+
+    .middleColumn {
+        width: 60%;
+    }
+
+    .middleImgContainer{
+        flex-wrap: wrap;
+    }
+
+    /* Skills section */
+    .skillsContainer {
+        padding: 0.01em 16px;
+        margin-bottom: 10px;
+    }
+
+        .skillsContainer h4 {
+            text-align: left;
+            font-weight: 300;
+            margin: 10px 0 10px 5px;
+            font-size: 17px;
+            text-decoration: underline;
+            text-decoration-thickness: from-font;
+        }
+
+        .skillsContainer p {
+            margin: 2px;
+        }
+
+            .skillsContainer p span {
+                padding-left: 5px;
+                padding-right: 5px;
+                display: inline-block;
+            }
+
+    .skillTheme-alpha {
+        background-color: darkblue;
+        color: white;
+    }
+
+    .skillTheme-beta {
+        background-color: darkslateblue;
+        color: white;
+    }
+
+    .skillTheme-gamma {
+        background-color: darkcyan;
+        color: white;
+    }
+
+    /* Donations popup */
+    .donationContainer {
+        position: relative;
+        padding: 0.01em 16px;
+        background-color: lightgrey;
+        margin-top: 8px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        border-right: 1px solid rgba(0, 0, 0, 0.2);
+        border-left: 1px solid rgba(255, 255, 255, 0.7);
+        border-top: 1px solid rgba(255, 255, 255, 0.7);
+        border-radius: 8%;
+        cursor: pointer;
+    }
+
+    .closeBtnDonationPopUp {
+        cursor: pointer;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+
+        .closeBtnDonationPopUp svg {
+            fill: rgba(0, 0, 0, 0.7)
+        }
+
+            .closeBtnDonationPopUp svg:hover {
+                fill: rgba(0, 0, 0, 1)
+            }
+
+    .donationContainer h4 {
+        text-align: left;
+        font-weight: 600;
+        margin: 10px 0;
+        font-size: 15px;
+    }
+
+    .donationContainer p {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+        .donationContainer p svg {
+            width: 20px;
+            margin-right: 2px;
+            fill: rgba(0, 0, 0, 0.8)
+        }
+}
+
+@media only screen and (min-width: 900px){
+    .middleImgContainer {
+        flex-wrap: nowrap;
+    }
+    .middleImgHalf {
+        height: unset;
+    }
+}
+
+@media only screen and (min-width: 1300px)
+{
+    .mainColumn {
+        width: 20%;
+    }
+
+    .middleColumn {
+        width: 70%;
+    }
+
+    .middleImgHalf {
+        flex: 1;
+        height: 450px;
+    }
+}

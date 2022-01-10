@@ -1,0 +1,25 @@
+footer {
+    background-color: #6F6B73;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+}
+
+footer a, footer a:hover, footer a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.langSwitch{
+    margin: auto;
+}
+
+.copyright{
+    font-size: 12px;
+    margin: auto;
+    margin-bottom: 2px;
+    margin-top: 8px;
+}
