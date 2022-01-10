@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/bodyIndex.css" />
+    <link rel="stylesheet" href="styles/cloud.css" />
 
     <title>Kenopeia</title>
 </head>
@@ -65,25 +66,28 @@
                             <p class="profilePic"><img src="medias/profilePic.png"></p>
                             <hr>
                             <p class="infosProfile">🌺 Je partage avec vous les clés que j'ai expérimentées, et, qui permettent l'accès à une meilleure connaissance de Soi et de la Vie.</p>
-                        	<p class="infosProfile">Ces clés sont universelles et doivent être partagées afin que chacun(e) puisse s'épanouir pleinement.</p>
-                        	<p class="infosProfile">Belle lecture 💖🌹</p>
+                            <p class="infosProfile">Ces clés sont universelles et doivent être partagées afin que chacun(e) puisse s'épanouir pleinement.</p>
+                            <p class="infosProfile">Belle lecture 💖🌹</p>
                         </div>
                     </aside>
 
-                    <!-- Skills -->
-                    <div class="cardSections hideSmall vanillaTiltCard">
-                        <div class="skillsContainer">
-                            <h4>Categories</h4>
-                            <p>
-                                <span class="skillTheme-alpha">Méditations</span>
-                                <span class="skillTheme-alpha">Mes projections de conscience</span>
-                                <span class="skillTheme-alpha">Outils</span>
-                                <span class="skillTheme-alpha">Prise de conscience</span>
-                                <span class="skillTheme-alpha">Rituels</span>
-                                <span class="skillTheme-alpha">Cuisine</span>
-                                <span class="skillTheme-alpha">Synthèse des énergies</span>
-                            </p>
-                        </div>
+                    <!-- Categories cloud -->
+                    <div id="myCanvasContainer" class="cardSections hideSmall vanillaTiltCard">
+                        <canvas height="300" class="skillsContainer" id="myCanvas">
+                            <ul>
+                                <li><a href="blog/meditations.html" target="_blank">Méditations</a></li>
+                                <li><a href="blog/projections_conscience.html">Mes projections de conscience</a></li>
+                                <li><a href="blog/outils.html">Outils</a></li>
+                                <li><a href="blog/prise_conscience.html">Prise de conscience</a></li>
+                                <li><a href="blog/rituels.html">Rituels</a></li>
+                                <li><a href="blog/cuisine.html">Cuisine</a></li>
+                                <li><a href="blog/syntheses_energies.html">Synthèse des énergies</a></li>
+                                <li><a href="podcasts.html">Podcasts</a></li>
+                                <li><a href="crochet.html">Créations au crochet</a></li>
+                                <li><a href="publications.html">Mes publications</a></li>
+                                <li><a href="partners.html">Partenaires</a></li>
+                            </ul>
+                        </canvas>
                     </div>
 
                     <!-- Commissions box -->
@@ -95,7 +99,7 @@
                             <!-- Need to send toward Kofi link -->
                             <h4>
                                 <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><g><rect fill="none" height="24" width="24" /></g><g><path d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10S17.52,2,12,2z M12.88,17.76v0.36c0,0.48-0.39,0.88-0.88,0.88h0 c-0.48,0-0.88-0.39-0.88-0.88v-0.42c-0.63-0.15-1.93-0.61-2.69-2.1c-0.23-0.44-0.01-0.99,0.45-1.18l0.07-0.03 c0.41-0.17,0.87,0,1.08,0.39c0.32,0.61,0.95,1.37,2.12,1.37c0.93,0,1.98-0.48,1.98-1.61c0-0.96-0.7-1.46-2.28-2.03 c-1.1-0.39-3.35-1.03-3.35-3.31c0-0.1,0.01-2.4,2.62-2.96V5.88C11.12,5.39,11.52,5,12,5h0c0.48,0,0.88,0.39,0.88,0.88v0.37 c1.07,0.19,1.75,0.76,2.16,1.3c0.34,0.44,0.16,1.08-0.36,1.3l0,0C14.32,9,13.9,8.88,13.66,8.57c-0.28-0.38-0.78-0.77-1.6-0.77 c-0.7,0-1.81,0.37-1.81,1.39c0,0.95,0.86,1.31,2.64,1.9c2.4,0.83,3.01,2.05,3.01,3.45C15.9,17.17,13.4,17.67,12.88,17.76z" /></g></svg>
-                                Hey ! 
+                                Hey !
                             </h4>
                             <p>Pour recevoir un truc au crochet c'est ici !</p>
                         </div>
@@ -125,9 +129,9 @@
                         <br>
                         <hr class="clearHR">
                         <p>Bienvenue à toutes les Âmes. Ce site est un portail vers une dimension supérieure.</p>
-                   		<p>Je partage avec vous mes prises de conscience, des méditations... et plus encore.</p>
-								<p>Ces outils sont une connexion avec l'Être Divin qui est en chacun de nous.</p>                    
-								<p>Amour & Bienveillance 💜🌺</p>                    
+                        <p>Je partage avec vous mes prises de conscience, des méditations... et plus encore.</p>
+                        <p>Ces outils sont une connexion avec l'Être Divin qui est en chacun de nous.</p>
+                        <p>Amour & Bienveillance 💜🌺</p>
                     </div>
 
                     <div class="cardSections middleSection">
@@ -184,5 +188,24 @@
 
     <!-- Language switch -->
     <script defer src="scripts/language.js"></script>
+
+    <!-- Cloud categories -->
+    <script src="scripts/cloud.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            try {
+                TagCanvas.textColour = '#000000';
+                TagCanvas.maxSpeed = 0.05;
+                TagCanvas.outlineMethod = "none";
+
+                TagCanvas.Start('myCanvas');
+
+                TagCanvas.SetSpeed('myCanvas', [0.020, -0.010]);
+            } catch (e) {
+                // something went wrong, hide the canvas container
+                document.getElementById('myCanvasContainer').style.display = 'none';
+            }
+        };
+    </script>
 </body>
 </html>
