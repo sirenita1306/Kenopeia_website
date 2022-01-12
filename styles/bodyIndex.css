@@ -32,9 +32,18 @@ hr{
     margin-bottom: 10px;
 }
 
+    .cardSections h4 {
+        font-family: "Josefin Sans",sans-serif;
+    }
+
+    .cardSections p, .cardSections a {
+        font-family: "Libre Baskerville",serif;
+    }
+
 /* Profile section */
 .profileContainer{
     padding: 0.01em 16px;
+    background-color: rgba(106, 200, 200, 0.4);
 }
 
 .profileContent h4{
@@ -159,46 +168,6 @@ hr{
 
     .middleImgContainer{
         flex-wrap: wrap;
-    }
-
-    /* Skills section */
-    .skillsContainer {
-        padding: 0.01em 16px;
-        margin-bottom: 10px;
-    }
-
-        .skillsContainer h4 {
-            text-align: left;
-            font-weight: 300;
-            margin: 10px 0 10px 5px;
-            font-size: 17px;
-            text-decoration: underline;
-            text-decoration-thickness: from-font;
-        }
-
-        .skillsContainer p {
-            margin: 2px;
-        }
-
-            .skillsContainer p span {
-                padding-left: 5px;
-                padding-right: 5px;
-                display: inline-block;
-            }
-
-    .skillTheme-alpha {
-        background-color: darkblue;
-        color: white;
-    }
-
-    .skillTheme-beta {
-        background-color: darkslateblue;
-        color: white;
-    }
-
-    .skillTheme-gamma {
-        background-color: darkcyan;
-        color: white;
     }
 
     /* Donations popup */

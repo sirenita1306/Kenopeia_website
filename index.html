@@ -72,8 +72,13 @@
                     </aside>
 
                     <!-- Categories cloud -->
-                    <div id="myCanvasContainer" class="cardSections hideSmall vanillaTiltCard">
-                        <canvas height="300" class="skillsContainer" id="myCanvas">
+                    <div id="myCanvasContainer" class="cardSections hideSmall vanillaTiltCard categoryCloudContainer">
+
+                        <h4>Catégories</h4>
+
+                        <hr>
+
+                        <canvas height="280" class="categoryCloud" id="myCanvas">
                             <ul>
                                 <li><a href="blog/meditations.html" target="_blank">Méditations</a></li>
                                 <li><a href="blog/projections_conscience.html">Mes projections de conscience</a></li>
@@ -197,10 +202,11 @@
                 TagCanvas.textColour = '#000000';
                 TagCanvas.maxSpeed = 0.05;
                 TagCanvas.outlineMethod = "none";
+                TagCanvas.minSpeed = 0.005;
 
                 TagCanvas.Start('myCanvas');
 
-                TagCanvas.SetSpeed('myCanvas', [0.020, -0.010]);
+                TagCanvas.SetSpeed('myCanvas', [0.02, -0.01]);
             } catch (e) {
                 // something went wrong, hide the canvas container
                 document.getElementById('myCanvasContainer').style.display = 'none';

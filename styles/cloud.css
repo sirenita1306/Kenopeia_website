@@ -6,3 +6,24 @@
     width: 100%;
     padding: 0px;
 }
+
+.categoryCloud {
+    padding: 0.01em 16px;
+    margin-bottom: 10px;
+}
+
+.categoryCloudContainer {
+    background-color: rgba(226, 200, 188, 0.7);
+}
+
+    .categoryCloudContainer h4 {
+        text-align: center;
+        font-weight: 400;
+        margin: 15px 0px;
+        font-size: 20px;
+    }
+
+    .categoryCloudContainer hr {
+        margin: auto;
+        width: 80%;
+    }
