@@ -125,7 +125,6 @@ hr{
         margin: auto;
     }
 
-
 @media only screen and (min-width: 375px) {
     .mainColumn{
         width: 80%;
@@ -174,7 +173,7 @@ hr{
     .donationContainer {
         position: relative;
         padding: 0.01em 16px;
-        background-color: lightgrey;
+        background-color: rgba(115, 190, 200, 0.2);
         margin-top: 8px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.2);
         border-right: 1px solid rgba(0, 0, 0, 0.2);
