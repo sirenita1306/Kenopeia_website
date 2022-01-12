@@ -32,14 +32,6 @@ hr{
     margin-bottom: 10px;
 }
 
-    .cardSections h4 {
-        font-family: "Josefin Sans",sans-serif;
-    }
-
-    .cardSections p, .cardSections a {
-        font-family: "Libre Baskerville",serif;
-    }
-
 /* Profile section */
 .profileContainer{
     padding: 0.01em 16px;
@@ -102,17 +94,23 @@ hr{
     margin-bottom: 20px;
 }
 
-.middleSection p a, .middleSection p a:hover, .middleSection p a:visited{
-    color: black;
+.middleSection a, .middleSection a:visited {
+    color: grey;
+    text-decoration: none;
+    transition: all 0.5s ease;
 }
 
-.middleImgContainer{
-    margin: auto;
-    width: 80%;
-    justify-content: space-evenly;
-    align-content: center;
-    margin-bottom: 20px;
-}
+    .middleSection a:hover {
+        color: #423054;
+    }
+
+    .middleImgContainer {
+        margin: auto;
+        width: 80%;
+        justify-content: space-evenly;
+        align-content: center;
+        margin-bottom: 20px;
+    }
 
 @media only screen and (min-width: 375px) {
     .mainColumn{

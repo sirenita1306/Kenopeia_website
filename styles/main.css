@@ -47,6 +47,14 @@ h3 {
     font-family: "Josefin Sans",sans-serif;
 }
 
+p, a {
+    font-family: "Libre Baskerville",serif;
+}
+
+h4 {
+    font-family: "Josefin Sans",sans-serif;
+}
+
 @media only screen and (min-width: 100px) {
     .hideSmall {
         display: none;
