@@ -107,23 +107,12 @@ hr{
 }
 
 .middleImgContainer{
-    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    justify-content: space-evenly;
     align-content: center;
     margin-bottom: 20px;
 }
-
-.middleImgHalf {
-    flex: unset;
-    width: unset;
-    overflow: hidden;
-    margin: auto 5px;
-    display: flex;
-}
-
-    .middleImgHalf img {
-        border-radius: 3%;
-        margin: auto;
-    }
 
 @media only screen and (min-width: 375px) {
     .mainColumn{
