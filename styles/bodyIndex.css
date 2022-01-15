@@ -82,7 +82,9 @@ hr{
 
 .timeTxt{
     float: right;
-    opacity: 0.35;
+    opacity: 0.8;
+    color: rgb(64, 0, 0);
+    font-weight: bold;
 }
 
 .middleSection h4 {
