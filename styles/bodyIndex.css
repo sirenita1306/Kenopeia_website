@@ -87,6 +87,12 @@ hr{
     font-weight: bold;
 }
 
+.amourbienveillance{
+	text-align: center;
+	font-weight: bold;
+	color: rgb(255,  0, 64);
+	}
+
 .middleSection h4 {
     margin-top: 18px;
     font-size: 18px;
