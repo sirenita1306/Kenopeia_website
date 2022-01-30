@@ -101,10 +101,21 @@ hr{
   font-weight: bold;
 }
 
-.petiteimage {
+.petiteimagecategorie {
 	margin: auto;
 	padding: 20px;
 	width: 280px;
+}
+
+.petiteimagearticle {
+	margin: auto; 
+	width: 190px; 
+	margin-bottom: 40px;
+}
+
+.imageinterarticle {
+	margin: auto;
+	width : 100px;
 }
 
 .middleSection h4 {
