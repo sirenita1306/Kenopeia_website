@@ -92,6 +92,20 @@ hr{
 	font-weight: bold;
 	color: rgb(255,  0, 64);
 	}
+	
+.italic {
+  font-style: italic;
+}	
+
+.thick {
+  font-weight: bold;
+}
+
+.petiteimage {
+	margin: auto;
+	padding: 20px;
+	width: 280px;
+}
 
 .middleSection h4 {
     margin-top: 18px;
