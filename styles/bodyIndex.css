@@ -118,6 +118,11 @@ hr{
 	width : 100px;
 }
 
+.bd {
+	max-width: 100%; 
+	height: auto;
+}
+
 .middleSection h4 {
     margin-top: 18px;
     font-size: 18px;
