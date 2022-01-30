@@ -13,7 +13,8 @@ html {
     font-size: 15px;
     line-height: 1.5;
     color: black;
-    background-color: rgba(164, 134, 183, 0.3);
+    background-image: url("../medias/background.png");
+    background-position: center; background-size: cover; background-repeat: no-repeat; background-attachment: scroll;
     text-decoration: none;
     width: 100%;
 }
