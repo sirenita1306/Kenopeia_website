@@ -133,8 +133,8 @@ hr{
 }
 
 .middleSection a, .middleSection a:visited {
-  	 color: rgb(255,  0, 64);
-  	 	font-weight: bold;
+  	 	color: rgb(255,  0, 64);
+  	 	font-weight: 600;
 }
 
     .middleSection a:hover {
