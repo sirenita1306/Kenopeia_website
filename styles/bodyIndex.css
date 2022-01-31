@@ -87,7 +87,7 @@ hr{
     font-weight: bold;
 }
 
-.amourbienveillance{
+.amourbienveillance {
 	text-align: center;
 	font-weight: bold;
 	color: rgb(255,  0, 64);
@@ -133,13 +133,12 @@ hr{
 }
 
 .middleSection a, .middleSection a:visited {
-    color: grey;
-    text-decoration: none;
-    transition: all 0.5s ease;
+  	 color: rgb(255,  0, 64);
+  	 	font-weight: bold;
 }
 
     .middleSection a:hover {
-        color: #423054;
+          color: rgb(0, 32, 0);
     }
 
     .middleImgContainer {
