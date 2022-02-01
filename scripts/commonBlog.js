@@ -41,16 +41,6 @@ function CreateCloudCategories() {
     linkPriseConsc.innerHTML = 'Prise de conscience';
     document.getElementById('priseConscLI').appendChild(linkPriseConsc);
 
-    // Rituels
-    let liRituels = document.createElement('li');
-    liRituels.id = 'rituelsLI';
-    document.getElementById('listCloudCategory').appendChild(liRituels);
-
-    let linkRituels = document.createElement('a');
-    linkRituels.href = '../blog/rituels.html';
-    linkRituels.innerHTML = 'Rituels';
-    document.getElementById('rituelsLI').appendChild(linkRituels);
-
     // Cuisine
     let liCuisine = document.createElement('li');
     liCuisine.id = 'cuisineLI';
@@ -88,18 +78,8 @@ function CreateCloudCategories() {
 
     let linkCrochet = document.createElement('a');
     linkCrochet.href = '../crochet.html';
-    linkCrochet.innerHTML = 'Crations au crochet';
+    linkCrochet.innerHTML = 'Crochet';
     document.getElementById('crochetLI').appendChild(linkCrochet);
-
-    // Mes publications
-    let liPublications = document.createElement('li');
-    liPublications.id = 'publicationsLI';
-    document.getElementById('listCloudCategory').appendChild(liPublications);
-
-    let linkPublications = document.createElement('a');
-    linkPublications.href = '../publications.html';
-    linkPublications.innerHTML = 'Mes publications';
-    document.getElementById('publicationsLI').appendChild(linkPublications);
 
     // Partenaires
     let liPartners = document.createElement('li');
