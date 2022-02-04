@@ -130,7 +130,7 @@ hr{
 
 .middleSection p{
     margin-bottom: 20px;
-    color: rgb(96, 0, 32);
+    color: rgb(0, 32, 0);
 }
 
 .middleSection a, .middleSection a:visited {
@@ -138,7 +138,7 @@ hr{
   	 	font-weight: 600;
 }
 
-    .middleSection p:hover, .middleSection a:hover {
+    .middleSection a:hover {
           color: rgb(0, 32, 0);
     }
 
