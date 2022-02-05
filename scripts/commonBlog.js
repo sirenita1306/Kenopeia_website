@@ -51,16 +51,6 @@ function CreateCloudCategories() {
     linkCuisine.innerHTML = 'Cuisine';
     document.getElementById('cuisineLI').appendChild(linkCuisine);
 
-    // Synthèse des énergies
-    let liEnergies = document.createElement('li');
-    liEnergies.id = 'energiesLI';
-    document.getElementById('listCloudCategory').appendChild(liEnergies);
-
-    let linkEnergies = document.createElement('a');
-    linkEnergies.href = '../blog/syntheses_energies.html';
-    linkEnergies.innerHTML = 'Synth\350se des \351nergies';
-    document.getElementById('energiesLI').appendChild(linkEnergies);
-
     // Podcasts
     let liPodcasts = document.createElement('li');
     liPodcasts.id = 'podcastsLI';

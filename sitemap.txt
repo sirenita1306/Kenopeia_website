@@ -5,7 +5,6 @@ https://kenopeia.com/crochet.html
 https://kenopeia.com/legalnotice.html
 https://kenopeia.com/partners.html
 https://kenopeia.com/podcasts.html
-https://kenopeia.com/publications.html
 https://kenopeia.com/donations.html
 
 https://kenopeia.com/blog/meditations.html
@@ -14,5 +13,27 @@ https://kenopeia.com/blog/outils.html
 https://kenopeia.com/blog/prise_conscience.html
 https://kenopeia.com/blog/rituels.html
 https://kenopeia.com/blog/cuisine.html
-https://kenopeia.com/blog/syntheses_energies.html
 
+https://kenopeia.com/blog/a_l_ecoute_de_son_ame.html
+https://kenopeia.com/blog/avoir_confiance_en_ses_ressentis.html
+https://kenopeia.com/blog/gelee_fleur_pissenlit.html
+https://kenopeia.com/blog/gelee_petales_roses.html
+https://kenopeia.com/blog/invitation_au_changement.html
+https://kenopeia.com/blog/la_creativite.html
+https://kenopeia.com/blog/laisservenirasoi_1.html
+https://kenopeia.com/blog/laisservenirasoi_2.html
+https://kenopeia.com/blog/le_corps.html
+https://kenopeia.com/blog/le_discernement.html
+https://kenopeia.com/blog/les_enfants.html
+https://kenopeia.com/blog/les_rituels_de_l_esprit.html
+https://kenopeia.com/blog/meditation_sur_la_lumiere.html
+https://kenopeia.com/blog/monvoyageinterieur.html
+https://kenopeia.com/blog/nettoyer_ses_chakras.html
+https://kenopeia.com/blog/notreguidanceinterieure.html
+https://kenopeia.com/blog/presence_divine_ou_ego.html
+https://kenopeia.com/blog/principe_vie_divin.html
+https://kenopeia.com/blog/qui_suis_je.html
+https://kenopeia.com/blog/reveler_letre_divin_en_soi.html
+https://kenopeia.com/blog/se_connecter_a_son_ame.html
+https://kenopeia.com/blog/se_liberer_des_liens_d_attachement.html
+https://kenopeia.com/blog/sortir_de_l_lillusion_de_ce_monde.html
