@@ -289,15 +289,23 @@ div.desc {
   width: 24.99999%;
 }
 
+.responsive2 {
+  padding: 0 6px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 @media only screen and (max-width: 700px) {
-  .responsive {
+  .responsive , .responsive2 {
     width: 49.99999%;
     margin: 6px 0;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .responsive {
+  .responsive , .responsive2 {
     width: 100%;
   }
 }
