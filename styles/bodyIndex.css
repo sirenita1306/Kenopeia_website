@@ -268,11 +268,8 @@ hr{
 }
 
 div.gallery {
-  border: 1px dotted rgb(64,  64, 0);
-}
-
-div.gallery:hover {
-  border: 1px dashed rgb(64,  64, 160);
+  border-style: none;
+  border-radius: 20px;
 }
 
 div.gallery img {
@@ -285,9 +282,6 @@ div.desc {
   text-align: center;
 }
 
-* {
-  box-sizing: border-box;
-}
 
 .responsive {
   padding: 0 6px;
@@ -308,3 +302,20 @@ div.desc {
   }
 }
 
+.shadow {
+	filter: drop-shadow(8px 8px 10px purple);
+	border-radius: 20px;
+}
+
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  border-radius: 20px;
+}
+
+div.txtcontainer {
+  text-align: center;
+  padding: 10px 20px;
+}
