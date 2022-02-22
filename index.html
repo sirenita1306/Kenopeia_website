@@ -78,7 +78,7 @@
 		<li><a href="https://kenopeia.com/blog/projections_conscience.html">Mes projections de conscience</a></li>
 		<li><a href="https://kenopeia.com/blog/cuisine.html">Cuisine</a></li>
 		<li><a href="https://kenopeia.com/blog/auteurs_independants.html">Auteurs indépendants</a></li>	
-		<li><a href="https://www.paypal.com/donate/?hosted_button_id=FL7CDB5SBKTBG" target="_blank">Faire un don</a></li>					
+		<li><a href="https://www.paypal.com/donate/?hosted_button_id=FL7CDB5SBKTBG" target="_blank">Faire un don</a></li>										
 	</ul>
 </nav>        
        
@@ -104,20 +104,6 @@
                             <p class="infosProfile">💖🌹</p>
                         </div>
                     </aside>
-
-                    <!-- Categories cloud -->
-                    <div id="myCanvasContainer" class="cardSections hideSmall vanillaTiltCard categoryCloudContainer">
-
-                        <h4>Catégories</h4>
-
-                        <hr>
-
-                        <canvas height="280" class="categoryCloud" id="myCanvas">
-                            <ul id="listCloudCategory">
-                                <script defer src="scripts/common.js"></script>
-                            </ul>
-                        </canvas>
-                    </div>
 
                     <!-- Commissions box -->
                     <div class="donationContainer hideSmall">
@@ -266,11 +252,11 @@
 
     <!-- Footer -->
     <footer class="columnFlex">
-        <div class="langSwitch">
+        <!--<div class="langSwitch">
             <select id="lang-switch" onchange="changeLanguage(this.value)">
                 <option value="fr">Français</option>
             </select>
-        </div>
+        </div>-->
 
         <div class="copyright">
             <p>Website created by <a href="https://theanaproductions.com/" rel="noopener noreferrer" target="_blank"><em>Theana Productions</em></a>. The content of this website are the propriety of <em>Kenopeia</em>'s owner.</p>
@@ -290,29 +276,10 @@
     </script>
 
     <!-- Language switch -->
-    <script defer src="scripts/language.js"></script>
+    <!--<script defer src="scripts/language.js"></script>-->
 
-    <!-- Cloud categories -->
-    <script src="scripts/cloud.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        window.onload = function () {
-            try {
-                TagCanvas.textColour = '#000000';
-                TagCanvas.textFont = 'Libre Baskerville, serif';
-                TagCanvas.maxSpeed = 0.05;
-                TagCanvas.outlineMethod = 'none';
-                TagCanvas.minSpeed = 0.005;
 
-                TagCanvas.Start('myCanvas');
-
-                TagCanvas.SetSpeed('myCanvas', [0.02, -0.01]);
-            } catch (e) {
-                // something went wrong, hide the canvas container
-                document.getElementById('myCanvasContainer').style.display = 'none';
-            }
-        };
-    </script>
-    
+    <!-- Menu burger -->
         <script src="scripts/swipe-menu.js" async></script>
 </body>
 </html>
