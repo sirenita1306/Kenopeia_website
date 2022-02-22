@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="styles/cloud.css" />
     
     <link rel="stylesheet" href="styles/mobilenav.css" />
+    <script src="scripts/swipe-menu.js" async></script>
 
     <title>Kenopeia</title>
 </head>
@@ -60,27 +61,30 @@
         <!--menu latéral mobile-->
     </header>
 
-    <main>
-    <!--menu latéral-->
-<nav>
-  <div class="conteneur-nav">
-  <label for="mobile">Afficher / Cacher le menu</label>
-  <input type="checkbox" id="mobile" role="button">
-    <ul>
-      <li class="deroulant"><a href="https://kenopeia.com/podcasts.html">Podcasts &ensp;</a>
-      <li class="deroulant"><a href="https://kenopeia.com/blog/prise_conscience.html">Prise de conscience &ensp;</a>
-      <li class="deroulant"><a href="https://kenopeia.com/blog/meditations.html">Méditations &ensp;</a>
-      <li class="deroulant"><a href="https://kenopeia.com/blog/outils.html">Outils &ensp;</a>
-      <li class="deroulant"><a href="https://kenopeia.com/blog/cuisine.html">Cuisine &ensp;</a>
-      <li class="deroulant"><a href="https://kenopeia.com/blog/projections_conscience.html">Mes projections de conscience &ensp;</a>
-      <li class="deroulant"><a href="https://kenopeia.com/blog/auteurs_independants.html">Auteurs indépendants &ensp;</a>
-      </li>
+    <main>   
+    <nav id="menu">
+	<ul>
+		<li><a href="https://kenopeia.com/blog/prise_conscience.html">Prise de conscience</a></li>
+		<li><a href="https://kenopeia.com/blog/outils.html">Outils</a></li>
+		<li><a href="https://kenopeia.com/blog/meditations.html">Méditations</a></li>
+		<li><a href="https://kenopeia.com/blog/projections_conscience.html">Mes projections de conscience</a></li>
+		<li><a href="https://kenopeia.com/blog/cuisine.html">Cuisine</a></li>
+		<li><a href="https://kenopeia.com/blog/auteurs_independants.html">Auteurs indépendants</a></li>
+		<li><a href="https://kenopeia.com/partners.html">Partenaires</a></li>	
+		<li><a href="https://www.paypal.com/donate/?hosted_button_id=FL7CDB5SBKTBG" target="_blank">Faire un don</a></li>					
+	</ul>
+</nav>
 
-    </ul>
-  </div>
-</nav>    
-    
-    
+<div id="container">
+	<header id="header">
+
+		<div id="menu-burger">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</div>
+	</header>
+	
         <!-- FRENCH -->
         <div class="lang fr" lang="fr">
             <!-- The Grid -->
