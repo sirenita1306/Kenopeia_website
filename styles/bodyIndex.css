@@ -330,3 +330,8 @@ div.txtcontainer {
   text-align: center;
   padding: 10px 20px;
 }
+
+/*icone retour vers le haut de la page */
+.retourhaut {
+  padding-left: 50%;
+}
