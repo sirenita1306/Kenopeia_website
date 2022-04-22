@@ -23,36 +23,41 @@ function loadLanguagePref() {
 }
 
 function changeLanguage(langSelected) {
-
-    console.log(langSelected);
-
     var lang = langSelected;
 
+    // Add a var for each language you want to support
     var langTxt = document.getElementsByClassName('lang');
+    var enTxt = document.getElementsByClassName('en');
     var frTxt = document.getElementsByClassName('fr');
 
     for (var i = 0; i < langTxt.length; i++) {
         langTxt[i].style.display = 'none';
     }
 
-    if (lang.includes('fr')) {
+    // Add the new languages to the fail-safe to make sure all variants will be shown correctly
+    if (lang.includes('en')) {
+        lang = 'en';
+    }
+    else if (lang.includes('fr')) {
         lang = 'fr';
     }
 
+    // Add the new languages to switch the shown texts
     switch (lang) {
         case 'fr':
             for (var i = 0; i < frTxt.length; i++) {
                 frTxt[i].style.display = 'block';
             }
-            document.getElementById('lang-switch').value = 'fr';
+            break;
+        case 'en':
         default:
-            for (var i = 0; i < frTxt.length; i++) {
-                frTxt[i].style.display = 'block';
+            for (var i = 0; i < enTxt.length; i++) {
+                enTxt[i].style.display = 'block';
             }
-            document.getElementById('lang-switch').value = 'fr';
             break;
     }
 
+    document.getElementById('lang-switch').value = lang;
     document.documentElement.lang = lang;
 
     saveLanguagePref(lang);
